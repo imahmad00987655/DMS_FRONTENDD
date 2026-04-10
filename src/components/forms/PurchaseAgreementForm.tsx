@@ -166,7 +166,7 @@ export const PurchaseAgreementForm: React.FC<PurchaseAgreementFormProps> = ({
         try {
           // Fetch sites directly from the supplier using supplier_id
           // Use apiService baseURL or construct from environment
-          const PRODUCTION_BACKEND = 'https://skyblue-snake-491948.hostingersite.com';
+          const PRODUCTION_BACKEND = 'https://darkred-sandpiper-735493.hostingersite.com/';
           const PRODUCTION_API_BASE = `${PRODUCTION_BACKEND}/api`;
           const isProduction = import.meta.env.PROD || window.location.hostname.includes('hostingersite.com');
           const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 
@@ -227,7 +227,7 @@ export const PurchaseAgreementForm: React.FC<PurchaseAgreementFormProps> = ({
           try {
             console.log('🔍 Fetching sites for existing agreement, supplier_id:', agreement.supplier_id);
             // Use apiService baseURL or construct from environment
-            const PRODUCTION_BACKEND = 'https://skyblue-snake-491948.hostingersite.com';
+            const PRODUCTION_BACKEND = 'https://darkred-sandpiper-735493.hostingersite.com/';
             const PRODUCTION_API_BASE = `${PRODUCTION_BACKEND}/api`;
             const isProduction = import.meta.env.PROD || window.location.hostname.includes('hostingersite.com');
             const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 
