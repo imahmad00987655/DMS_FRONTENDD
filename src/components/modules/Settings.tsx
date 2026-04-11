@@ -42,7 +42,7 @@ import CompanySetup from "./CompanySetup";
 
 // Use environment variable for API base URL, fallback based on environment
 // Production backend URL
-const PRODUCTION_BACKEND = 'https://darkred-sandpiper-735493.hostingersite.com/';
+const PRODUCTION_BACKEND = 'https://darkred-sandpiper-735493.hostingersite.com';
 const PRODUCTION_API_BASE = `${PRODUCTION_BACKEND}/api`;
 
 // Determine if we're in production (Hostinger deployment)

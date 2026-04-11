@@ -70,7 +70,7 @@ interface CompanyLocation {
 }
 
 // Use environment variable for API base URL, fallback based on environment
-const PRODUCTION_BACKEND = 'https://darkred-sandpiper-735493.hostingersite.com/';
+const PRODUCTION_BACKEND = 'https://darkred-sandpiper-735493.hostingersite.com';
 const PRODUCTION_API_BASE = `${PRODUCTION_BACKEND}/api`;
 const isProduction = import.meta.env.PROD || window.location.hostname.includes('hostingersite.com');
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 
